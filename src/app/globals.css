@@ -4,7 +4,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --primary-color: #042A49;
-  --secondary-color: #EDC258;
+  --secondary-color: #EBD180;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,6 +12,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+.text-secondary-color {
+  color: var(--secondary-color)
 }
 
 body {
