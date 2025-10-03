@@ -31,10 +31,10 @@ export default function Home() {
           <ProfessionalCard {...professionals['adriana']}/>
          </div>
       </PageSection>
-      <PageSection backgroundImage="bg-image-blue-with-border.png" mobileConfigClasses="max-[1766px]:h-[90vh] max-[1186px]:h-[120vh] max-[1186px]:h-[150vh] max-[508px]:h-[200vh]">
-        <div className="w-[50%] m-auto h-full flex flex-col items-center mt-8">
+      <PageSection backgroundImage="" mobileConfigClasses="max-[1766px]:h-[90vh] max-[1186px]:h-[120vh] max-[1186px]:h-[150vh] max-[476px]:h-[200vh] bg-[#042A49]  border-y-[#EBD180] border-y-20">
+        <div className="w-[50%] m-auto h-full flex flex-col items-center">
           <header>
-            <div className="mt-16 ">
+            <div className="mt-15 ">
               <h2 className="text-5xl my-4">FORMAÇÃO E EXPERIÊNCIA</h2>
               <h3 className="text-secondary-color text-xl">Somos especialistas na vara de FAMÍLIA e TRABALHISTA</h3>
             </div>
