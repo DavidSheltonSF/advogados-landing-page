@@ -31,7 +31,7 @@ export default function Home() {
           <ProfessionalCard {...professionals['adriana']}/>
          </div>
       </PageSection>
-      <PageSection backgroundImage="bg-image-blue-with-border.png" mobileConfigClasses="max-[1766px]:h-[90vh] max-[1186px]:h-[120vh] max-[1186px]:h-[150vh]">
+      <PageSection backgroundImage="bg-image-blue-with-border.png" mobileConfigClasses="max-[1766px]:h-[90vh] max-[1186px]:h-[120vh] max-[1186px]:h-[150vh] max-[508px]:h-[200vh]">
         <div className="w-[50%] m-auto h-full flex flex-col items-center mt-8">
           <header>
             <div className="mt-16 ">
