@@ -11,7 +11,7 @@ interface Props {
 export function ProfessionalCard(props: Props) {
   const { photo, name, description, specialization, experience } = props
   return (
-    <article className="flex flex-col animate-pulse space-x-4 items-center w-88 h-128 rounded-2xl bg-[#f6f6f6] overflow-hidden p-5 shadow-md">
+    <article className="flex flex-col items-center w-88 h-128 rounded-2xl bg-[#f6f6f6] overflow-hidden p-5 shadow-md">
       <header className="h-[52%] w-full">
         <div className="size-full rounded-xl overflow-hidden">
           <img className="h-full w-full object-cover object-[50%_8%]" src={photo} alt="" />
