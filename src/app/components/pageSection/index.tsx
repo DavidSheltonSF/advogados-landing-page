@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 interface Props {
   backgroundImage: string,
-  children?: any;
+  children?: ReactNode;
   mobileConfigClasses?: string;
 }
 
