@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://advogados-landing-page.onrender.com/website-preview-1200x630.png',
+        url: 'https://advogados-landing-page.onrender.com/website-preview-1200x504.png',
         width:1200,
         height:630
       }
