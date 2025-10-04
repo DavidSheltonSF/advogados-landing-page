@@ -25,16 +25,16 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="max-md:h-[35vh]"/>
-      <PageSection backgroundImage="/bg-image-white.png" extraClasses="max-md:h-[130vh]">
-         <div className="flex max-md:flex-col gap-36 max-md:gap-10 items-center justify-center w-full h-full">
+      <PageSection backgroundImage="/bg-image-white.png">
+         <div className="flex max-md:flex-col gap-36 max-md:gap-10 items-center my-5 justify-center w-full h-full">
           <ProfessionalCard {...professionals['maria']}/>
           <ProfessionalCard {...professionals['adriana']}/>
          </div>
       </PageSection>
-      <PageSection backgroundImage="" extraClasses="max-[1766px]:h-[110vh] max-[1186px]:h-[130vh] max-[1186px]:h-[160vh] max-[476px]:h-[200vh] bg-[#042A49]  border-y-[#EBD180] border-y-20">
-        <div className="w-[50%] m-auto h-full flex flex-col items-center">
+      <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-y-[#EBD180] border-y-20">
+        <div className="w-auto m-auto h-full flex flex-col items-center my-5 px-4">
           <header>
-            <div className="mt-15 ">
+            <div className="">
               <h2 className="text-5xl my-4">FORMAÇÃO E EXPERIÊNCIA</h2>
               <h3 className="text-secondary-color text-xl">Somos especialistas na vara de FAMÍLIA e TRABALHISTA</h3>
             </div>
