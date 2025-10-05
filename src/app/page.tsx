@@ -60,29 +60,7 @@ export default function Home() {
       <PageSection backgroundImage="" extraClasses=" bg-[#042A49]  border-t-[#EBD180] border-t-20">
 
       </PageSection>
-      <Footer>
-        <PageContainer extraClasses="flex flex-col h-[90%] items-center justify-evenly">
-          <div>
-            <h3 className="text-2xl font-bold">Siga-nos nas redes sociais</h3>
-          </div>
-          <div className="flex gap-8">
-            <a 
-          href="https://www.instagram.com/advocaciahiathesales/"
-          target="_blank"
-          className="cursos-pointer"
-          >
-            <img className="w-10" src="icons/instagram-white-icon.svg" alt="" />
-          </a>
-          <a 
-          href="https://web.facebook.com/maryy.sales/"
-          target="_blank"
-          className="cursos-pointer"
-          >
-            <img className="w-10" src="icons/facebook-white-icon.png" alt="" />
-          </a>
-          </div>
-        </PageContainer>
-      </Footer>
+      <Footer/>
       <WhatsAppButton/>
     </div>
   );
