@@ -4,6 +4,7 @@ import { ProfessionalCard } from "./components/professionalCard";
 import { WhatsAppButton } from "./components/whatsappButton";
 import { Footer } from "./components/footer";
 import { PageContainer } from "./components/pageContainer";
+import { Carousel } from "./components/carousel";
 
 export default function Home() {
 
@@ -58,7 +59,7 @@ export default function Home() {
         </PageContainer>
       </PageSection>
       <PageSection backgroundImage="" extraClasses=" bg-[#042A49]  border-t-[#EBD180] border-t-20">
-
+        <Carousel/>
       </PageSection>
       <Footer/>
       <WhatsAppButton/>
