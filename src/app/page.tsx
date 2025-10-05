@@ -24,7 +24,8 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="max-md:h-[35vh]"/>
+      <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="max-md:h-[35vh] max-md:min-h-[35vh]">
+      </PageSection>
       <PageSection backgroundImage="/bg-image-white.png">
          <div className="flex max-md:flex-col gap-36 max-md:gap-10 items-center my-5 justify-center w-full h-full">
           <ProfessionalCard {...professionals['maria']}/>
