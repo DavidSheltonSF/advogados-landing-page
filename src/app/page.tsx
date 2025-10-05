@@ -2,6 +2,8 @@ import Image from "next/image";
 import { PageSection } from "./components/pageSection";
 import { ProfessionalCard } from "./components/professionalCard";
 import { WhatsAppButton } from "./components/whatsappButton";
+import { Footer } from "./components/footer";
+import { PageContainer } from "./components/pageContainer";
 
 export default function Home() {
 
@@ -27,13 +29,14 @@ export default function Home() {
       <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="max-md:h-[35vh] max-md:min-h-[35vh]">
       </PageSection>
       <PageSection backgroundImage="/bg-image-white.png">
-         <div className="flex max-md:flex-col gap-36 max-md:gap-10 items-center my-5 justify-center w-full h-full">
+         <PageContainer extraClasses="flex items-center justify-center max-[800px]:flex-col gap-36 max-[800px]:gap-10
+       my-5 justify-centerl">
           <ProfessionalCard {...professionals['maria']}/>
           <ProfessionalCard {...professionals['adriana']}/>
-         </div>
+         </PageContainer>
       </PageSection>
-      <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-y-[#EBD180] border-y-20">
-        <div className="w-auto m-auto h-full flex flex-col items-center my-5 px-4">
+      <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-t-[#EBD180] border-t-20">
+        <PageContainer extraClasses="flex flex-col items-center my-5 px-4">
           <header>
             <div className="">
               <h2 className="text-5xl my-4">FORMAÇÃO E EXPERIÊNCIA</h2>
@@ -52,9 +55,34 @@ export default function Home() {
               </div>
             </div>
           </main>
-        </div>
-          
+        </PageContainer>
       </PageSection>
+      <PageSection backgroundImage="" extraClasses=" bg-[#042A49]  border-t-[#EBD180] border-t-20">
+
+      </PageSection>
+      <Footer>
+        <PageContainer extraClasses="flex flex-col h-[90%] items-center justify-evenly">
+          <div>
+            <h3 className="text-2xl font-bold">Siga-nos nas redes sociais</h3>
+          </div>
+          <div className="flex gap-8">
+            <a 
+          href="https://www.instagram.com/advocaciahiathesales/"
+          target="_blank"
+          className="cursos-pointer"
+          >
+            <img className="w-10" src="icons/instagram-white-icon.svg" alt="" />
+          </a>
+          <a 
+          href="https://web.facebook.com/maryy.sales/"
+          target="_blank"
+          className="cursos-pointer"
+          >
+            <img className="w-10" src="icons/facebook-white-icon.png" alt="" />
+          </a>
+          </div>
+        </PageContainer>
+      </Footer>
       <WhatsAppButton/>
     </div>
   );
