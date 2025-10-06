@@ -30,8 +30,12 @@ export function Carousel() {
         })}
       </div>
       </div>
-      <button onClick={prevSlide} className="absolute top-1/2 left-3 text-blue-400">CLICK</button>
-      <button onClick={nextSlide} className="absolute top-1/2 right-3 text-white bg-blue-400">CLICK</button>
+      <button onClick={prevSlide} className="absolute top-1/2 left-1 text-blue-400">
+        <img className="w-20" src="icons/arrow-left.svg" alt="" />
+      </button>
+      <button onClick={nextSlide} className="absolute top-1/2 right-1 text-white bg-blue-400">
+        <img className="w-20" src="icons/arrow-right.svg" alt="" />
+      </button>
     </div>
   )
 }
