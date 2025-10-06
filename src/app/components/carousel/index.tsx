@@ -82,7 +82,7 @@ export function Carousel() {
   ]
 
   const nextSlide = () => {
-    if(current < images.length - 1) {
+    if(current < cards.length - 1) {
       setCurrent(current + 1)
     } 
   }
