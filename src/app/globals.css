@@ -22,6 +22,11 @@
   background-color: var(--primary-color);
 }
 
+.disabledElement {
+  background-color: gray;
+  cursor: none;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
