@@ -1,4 +1,6 @@
 'use client'
+import { disableElement } from "@/app/utils/disableElement";
+import { enableElement } from "@/app/utils/enableElement";
 import { useEffect, useState } from "react";
 
 export interface CarouselCard {
@@ -9,14 +11,22 @@ export interface CarouselCard {
 
 export function Carousel() {
   const [current, setCurrent] = useState(0);
-  let rightButton: any = undefined;
-  let leftButton: any = undefined;
- 
-  // Access document after the browser is loaded
   useEffect(() => {
-    rightButton = document.querySelector('.rightButton');
-    leftButton = document.querySelector('.leftButton');
-  }, [])
+    function checkButtons() {
+      if(current === 0){
+        disableElement('.leftButton');
+      } else {
+        enableElement('.leftButton')
+      }
+
+      if(current === cards.length - 1) {
+        disableElement('.rightButton')
+      } else {
+        enableElement('.rightButton')
+      }
+    }
+    checkButtons()
+  }, [current])
 
   let startX = 0;
   const images = [
@@ -79,23 +89,12 @@ export function Carousel() {
   const nextSlide = () => {
     if(current < images.length - 1) {
       setCurrent(current + 1)
-      leftButton?.classList.remove('disabledElement')
-
-      if(current === images.length - 2) {
-        rightButton?.classList.add('disabledElement')
-      }
     } 
   }
 
   const prevSlide = () => {
      if(current > 0) {
       setCurrent(current - 1)
-
-      rightButton?.classList.remove('disabledElement')
-
-      if(current === images.length - 2) {
-        leftButton?.classList.add('disabledElement')
-      }
     }
   }
 
@@ -105,7 +104,6 @@ export function Carousel() {
 
   function touched(e: any) {
     const endX = e.changedTouches[0].clientX;
-    console.log('touched')
     if(startX - endX > 50) {
       nextSlide();
     } else if(endX - startX > 50) {
@@ -119,6 +117,7 @@ export function Carousel() {
       <div onTouchStart={touchStart}  onTouchEnd={touched} className="overflow-hidden rounded-xl">
         <div className="flex w-120 h-120 max-md:w-130 max-md:h-130 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {cards.map((card, index) => {
+          console.log(card.title)
           return (
             <div key={`card-${index}`} className="relative w-full shrink-0">
               <div className="flex justify-center absolute top-[50%] translate-y-[-50%] w-full h-[90%] bg-black/80">
