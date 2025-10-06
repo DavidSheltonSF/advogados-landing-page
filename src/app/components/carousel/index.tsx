@@ -22,7 +22,7 @@ export function Carousel() {
 
 
   return (
-    <div className="flex justify-center items-center relative bg-white w-160 h-160 overflow-hidden ">
+    <div className="flex justify-center items-center relative w-160 h-160 overflow-hidden ">
       <div className="overflow-hidden rounded-xl">
         <div className="flex w-120 h-120 rounded-xl  transition-transform  duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {images.map((img, index) => {
