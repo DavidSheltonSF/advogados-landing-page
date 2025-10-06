@@ -1,7 +1,10 @@
 export function WhatsAppButton() {
   return (
-    <a href="https://wa.me/+5521974694530"  target="_blank" className="fixed button-5 right-5 bottom-8 bg-green-500 hover:bg-green-600 rounded-full p-4 shadow-lg transition duration-300 z-50">
-      <img className="w-12" src="icons/whatsapp-white-icon.svg" alt="" />
+    <div className="fixed button-5 right-5 bottom-8 bg-green-500 hover:bg-green-600 rounded-full p-4 shadow-lg transition duration-300 z-50 ">
+      <a href="https://wa.me/+5521974694530"  className="bg-green-500 hover:bg-green-600 rounded-full" target="_blank" >
+      <div className="w-15 h-15 absolute right-[10px] bottom-[10px] max-md:right-[2px] max-md:bottom-[2px] bg-green-500 rounded-full animate-ping opacity-75"></div>
+      <img className="w-12 max-md:w-8" src="icons/whatsapp-white-icon.svg" alt="" />
     </a>
+    </div>
   )
 }
