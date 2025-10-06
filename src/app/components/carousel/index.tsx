@@ -3,9 +3,11 @@ import { useState } from "react";
 
 export function Carousel() {
   const [current, setCurrent] = useState(0);
+  let startX = 0;
   const images = [
     'carousel/trabalhista.png',
-    'carousel/familia.png'
+    'carousel/familia.png',
+    'carousel/previdenciario.png'
   ]
 
   const nextSlide = () => {
@@ -20,10 +22,24 @@ export function Carousel() {
     }
   }
 
+  function touchStart(e: any) {
+    startX = e.touches[0].clientX;
+  }
+
+  function touched(e: any) {
+    const endX = e.changedTouches[0].clientX;
+    console.log('touched')
+    if(startX - endX > 50) {
+      nextSlide();
+    } else if(endX - startX > 50) {
+      prevSlide()
+    }
+  }
+
 
   return (
     <div className="flex justify-center items-center relative w-180 h-160 overflow-hidden ">
-      <div className="overflow-hidden rounded-xl">
+      <div onTouchStart={touchStart}  onTouchEnd={touched} className="overflow-hidden rounded-xl">
         <div className="flex w-120 h-120 rounded-xl  transition-transform  duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {images.map((img, index) => {
           return <img className="w-full flex-shrink-0" key={index} src={img} alt=""/>
