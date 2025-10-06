@@ -29,11 +29,6 @@ export function Carousel() {
   }, [current])
 
   let startX = 0;
-  const images = [
-    'carousel/trabalhista.png',
-    'carousel/familia.png',
-    'carousel/previdenciario.png'
-  ]
 
   const cards: CarouselCard[] = [
     {
