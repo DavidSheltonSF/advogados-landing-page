@@ -120,7 +120,7 @@ export function Carousel() {
         <div className="flex w-120 h-120 max-md:w-130 max-md:h-130 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {cards.map((card, index) => {
           return (
-            <div className="relative w-full shrink-0">
+            <div key={`card-${index}`} className="relative w-full shrink-0">
               <div className="flex justify-center absolute top-[50%] translate-y-[-50%] w-full h-[90%] bg-black/80">
                <div className="flex w-[70%] h-full  flex-col ">
                  <h1 className="my-8 max-sm:my-4 mx-auto font-bold text-4xl text-secondary-color">{card.title}</h1>
