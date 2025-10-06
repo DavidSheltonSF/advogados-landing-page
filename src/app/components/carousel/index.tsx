@@ -2,6 +2,7 @@
 import { disableElement } from "@/app/utils/disableElement";
 import { enableElement } from "@/app/utils/enableElement";
 import { useEffect, useState } from "react";
+import { CarouselCard } from "../carouselCard";
 
 export interface CarouselCard {
   image: string,
@@ -113,18 +114,7 @@ export function Carousel() {
         <div className="flex w-120 h-120 max-md:w-130 max-md:h-130 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {cards.map((card, index) => {
           return (
-            <div key={`card-${index}`} className="relative w-full shrink-0">
-              <div className="flex justify-center absolute top-[50%] translate-y-[-50%] w-full h-[90%] bg-black/80">
-               <div className="flex w-[70%] h-full  flex-col ">
-                 <h1 className="my-8 max-sm:my-4 mx-auto font-bold text-4xl text-secondary-color">{card.title}</h1>
-                <ul className="flex flex-col gap-1 text-secondary-color text-lg max-sm:gap-0 max-sm:text-sm decoration list-disc">
-                  {card.items.slice(0,8).map((item, index) => <li key={`text-idem${index}`}>{item}</li>)}
-                </ul>
-
-               </div>
-              </div>
-              <img className="w-full" key={index} src={card.image} alt=""/>
-            </div>
+            <CarouselCard key={index} title={card.title} image={card.image} items={card.items} />
           )
         })}
       </div>
