@@ -17,7 +17,7 @@ export function Footer(){
             <img className="w-10" src="icons/instagram-white-icon.svg" alt="" />
           </a>
           <a 
-          href="https://web.facebook.com/maryy.sales/"
+          href="#"
           target="_blank"
           className="cursos-pointer"
           >
