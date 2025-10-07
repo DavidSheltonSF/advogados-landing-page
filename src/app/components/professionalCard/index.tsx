@@ -1,4 +1,8 @@
+'use client'
+
 import { reduceText } from "@/app/utils/reduceText";
+import { useEffect, useState } from "react";
+import { ProfessionalCardSkeleton } from "./skeleton";
 
 interface Props {
   photo: string;
@@ -8,9 +12,21 @@ interface Props {
   experience: number;
 }
 
-export function ProfessionalCard(props: Props) {
+export function  ProfessionalCard(props: Props) {
+  const [isLoading, setIsLoading] = useState(true)
+  useEffect(() => {
+    setIsLoading(false);
+  }, [])
+
+
   const { photo, name, description, specialization, experience } = props
   return (
+   <>
+     {
+      isLoading ?
+      <ProfessionalCardSkeleton/>
+
+    :
     <article className="flex flex-col items-center w-88 h-128 rounded-2xl bg-[#f6f6f6] overflow-hidden p-5 shadow-md hover:-translate-y-5 transition duration-200">
       <header className="h-[52%] w-full">
         <div className="size-full rounded-xl overflow-hidden">
@@ -23,10 +39,10 @@ export function ProfessionalCard(props: Props) {
       </main>
       <footer className="h-[12%] w-full flex items-center justify-between">
         <span className="text-black bg-blue-200 rounded-full content-center p-2 h-fit">{specialization}</span>
-        
         <span className="text-black">{experience} anos de experiência</span>
       </footer>
-  
     </article>
+     }
+   </>
   )
 }
