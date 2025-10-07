@@ -22,6 +22,10 @@
   background-color: var(--primary-color);
 }
 
+.bg-secondary{
+  background-color: var(--secondary-color);
+}
+
 .disabledElement {
   background-color: gray;
   cursor: default;
