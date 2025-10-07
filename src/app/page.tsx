@@ -36,10 +36,10 @@ export default function Home() {
          </PageContainer>
       </PageSection>
       <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-t-[#EBD180] border-t-20">
-        <PageContainer extraClasses="flex flex-col items-center my-5 px-4">
+        <PageContainer extraClasses="flex flex-col items-center my-5 py-2">
           <header>
             <div className="">
-              <h2 className="text-5xl my-4">FORMAÇÃO E EXPERIÊNCIA</h2>
+              <h2 className="text-5xl">FORMAÇÃO E EXPERIÊNCIA</h2>
               <h3 className="text-secondary-color text-xl">Somos especialistas na vara de FAMÍLIA e TRABALHISTA</h3>
             </div>
           </header>
