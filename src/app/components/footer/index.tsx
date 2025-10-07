@@ -3,7 +3,7 @@ import { PageContainer } from "../pageContainer";
 
 export function Footer(){
   return (
-    <footer className="flex items-center h-[30vh] bg-black w-full">
+    <footer className="flex items-center h-[20vh] max-sm:h-[30vh] bg-black w-full">
        <PageContainer extraClasses="flex flex-col h-[90%] items-center gap-6 p">
           <div className="mt-8">
             <h3 className="text-2xl font-bold max-sm:text-center">Siga-nos no nosso Instagram</h3>
