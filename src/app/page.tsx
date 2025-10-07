@@ -26,7 +26,17 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="max-md:h-[35vh] max-md:min-h-[35vh]"/>
+      <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="min-h-[70vh] max-md:h-[35vh] max-md:min-h-[35vh]"/>
+      <PageSection backgroundImage="" extraClasses="h-auto bg-[#181818]">
+        <PageContainer extraClasses="flex flex-col my-5 py-2 ">
+          <div className="flex flex-col items-start gap-8 max-w-150">
+            <h1 className="text-white text-5xl max-md:text-4xl max-sm:text-2xl">Buscando apoio jurídico ou consultoria para sua empresa?</h1>
+            <button className="py-2 px-6 rounded-md text-black font-bold text-xl bg-[#EBD180] hover:bg-[#e2c56f]">
+              <a href="#" target="_blank">Clique e fale conosco</a>
+            </button>
+          </div>
+        </PageContainer>
+      </PageSection>
       <PageSection backgroundImage="/bg-image-white.png">
          <PageContainer extraClasses="flex items-center justify-center max-[800px]:flex-col gap-36 max-[800px]:gap-10
        my-5 justify-centerl">
