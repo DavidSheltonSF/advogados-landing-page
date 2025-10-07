@@ -67,7 +67,7 @@ export default function Home() {
           </main>
         </PageContainer>
       </PageSection>
-      <PageSection backgroundImage="" extraClasses=" bg-[#042A49]  border-t-[#EBD180] border-t-20">
+      <PageSection backgroundImage="" extraClasses="max-sm:h-[60vh] bg-[#042A49]  border-t-[#EBD180] border-t-20">
         <Carousel/>
       </PageSection>
       <Footer/>
