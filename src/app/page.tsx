@@ -38,7 +38,7 @@ export default function Home() {
       <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-t-[#EBD180] border-t-20">
         <PageContainer extraClasses="flex flex-col items-center my-5 py-2">
           <header>
-            <div className="">
+            <div className="flex flex-col gap-3">
               <h2 className="text-5xl">FORMAÇÃO E EXPERIÊNCIA</h2>
               <h3 className="text-secondary-color text-xl">Somos especialistas na vara de FAMÍLIA e TRABALHISTA</h3>
             </div>
