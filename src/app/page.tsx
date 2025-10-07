@@ -46,12 +46,13 @@ export default function Home() {
           <main>
             <div className="flex flex-col m-auto mt-8 gap-5 w-[70vw]">
                <div className="flex flex-col w-full">
-                <h3 className="text-secondary-color text-2xl mb-2">Dr. Maria José</h3>
+                <h3 className="text-secondary-color text-2xl mb-2">Dra. Maria José</h3>
                 <p className="text-xl">Com 5 anos de experiência no campo jurídico, o Dra. Maria José atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal. Especializado em direito, trabalhista, e vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio e inscrita na OAB [UF/Seção], a Dra. Maria tem como missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
               </div>
               <div className="flex flex-col ">
-                <h3 className="text-secondary-color text-2xl mb-2">Dr. Adriana Hiath</h3>
-                <p className="text-xl">Com 5 anos de experiência no campo jurídico, o Dra. Maria José atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal. Especializado em direito, trabalhista, e vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio e inscrita na OAB [UF/Seção], a Dra. Maria tem como missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
+                <h3 className="text-secondary-color text-2xl mb-2">Dra. Adriana Hiath</h3>
+                <p className="text-xl">
+                Possuindo 5 anos de experiência na área jurídica, a Dra. Adriana Hiath atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes. Especialista em direito civil, trabalhista e de família, ela se destaca pelo atendimento humanizado, analisando cada caso com cuidado e dedicação. Graduada em Direito pela Universidade Estácio e inscrita na OAB [UF/Seção], a Dra. Adriana tem como propósito tornar questões jurídicas complexas em soluções eficazes, sempre pautada na ética, responsabilidade e excelência profissional. </p>
               </div>
             </div>
           </main>
