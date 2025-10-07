@@ -30,7 +30,7 @@ export default function Home() {
       <PageSection backgroundImage="" extraClasses="h-auto bg-[#181818]">
         <PageContainer extraClasses="flex flex-col my-5 py-2 ">
           <div className="flex flex-col items-start gap-8 max-w-150">
-            <h1 className="text-white text-5xl max-md:text-4xl max-sm:text-2xl">Buscando apoio jurídico ou consultoria para sua empresa?</h1>
+            <h1 className="text-white text-5xl max-md:text-4xl max-sm:text-3xl">Buscando apoio jurídico ou consultoria para sua empresa?</h1>
             <button className="py-2 px-6 rounded-md text-black font-bold text-xl bg-[#EBD180] hover:bg-[#e2c56f]">
               <a href="https://wa.me/+5521974694530" target="_blank">Clique e fale conosco</a>
             </button>
