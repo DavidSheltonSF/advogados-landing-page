@@ -26,8 +26,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="max-md:h-[35vh] max-md:min-h-[35vh]">
-      </PageSection>
+      <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="max-md:h-[35vh] max-md:min-h-[35vh]"/>
       <PageSection backgroundImage="/bg-image-white.png">
          <PageContainer extraClasses="flex items-center justify-center max-[800px]:flex-col gap-36 max-[800px]:gap-10
        my-5 justify-centerl">
