@@ -35,7 +35,7 @@ export function  ProfessionalCard(props: Props) {
       </header>
       <main className=" h-[40%] flex flex-col items-center">
         <h1 className="mt-5 font-bold text-black text-xl">{name}</h1>
-        <p className="mt-2 text-black text-center">{reduceText(description)}</p>
+        <p className="mt-2 text-black text-center">{reduceText(description, 27)}</p>
       </main>
       <footer className="h-[12%] w-full flex items-center justify-between">
         <span className="text-black bg-blue-200 rounded-full content-center p-2 h-fit">{specialization}</span>
