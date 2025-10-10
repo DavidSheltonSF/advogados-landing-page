@@ -29,24 +29,24 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="min-h-[70vh] max-md:h-[35vh] max-md:min-h-[35vh]"/>
-      <PageSection backgroundImage="" extraClasses="h-auto bg-[#181818]">
-        <PageContainer extraClasses="flex flex-col my-5 py-2 ">
+      <PageSection backgroundImage="" extraClasses="bg-[#181818]">
+        <PageContainer extraClasses="flex flex-col mt-20 min-h-[45vh] py-2 ">
           <div className="flex flex-col items-start gap-8 max-w-150">
-            <h1 className="text-white text-5xl max-md:text-4xl max-sm:text-3xl">Buscando apoio jurídico ou consultoria para sua empresa?</h1>
+            <h1 className="text-white text-5xl max-md:text-4xl max-sm:text-3xl">Buscando apoio jurídico ou consultoria?</h1>
             <button className="shadow-[color:#EBD180]/50 shadow-lg py-2 px-6 rounded-md text-black font-bold text-xl bg-[#EBD180] hover:bg-[#e2c56f]">
               <a href="https://wa.me/+5521974694530" target="_blank">Clique e fale conosco</a>
             </button>
           </div>
         </PageContainer>
       </PageSection>
-      <PageSection backgroundImage="/bg-image-white.png">
+      <PageSection backgroundImage="/bg-image-white.png" extraClasses="min-h-[70vh]">
          <PageContainer extraClasses="flex items-center justify-center max-[800px]:flex-col gap-36 max-[800px]:gap-10
        my-5 justify-centerl">
           <ProfessionalCard {...professionals['maria']}/>
           <ProfessionalCard {...professionals['adriana']}/>
          </PageContainer>
       </PageSection>
-      <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-t-[#EBD180] border-t-20">
+      <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-t-[#EBD180] border-t-20 min-h-[70vh]">
         <PageContainer extraClasses="flex flex-col items-center my-5 py-2 text-red-white">
           <header>
             <div className="flex flex-col gap-3">
@@ -69,7 +69,7 @@ export default function Home() {
           </main>
         </PageContainer>
       </PageSection>
-      <PageSection backgroundImage="" extraClasses="max-sm:h-[60vh] bg-[#042A49]  border-t-[#EBD180] border-t-20">
+      <PageSection backgroundImage="" extraClasses="max-sm:h-[60vh] bg-[#042A49]  border-t-[#EBD180] border-t-20 min-h-[70vh]">
         <Carousel/>
       </PageSection>
       <Footer/>
