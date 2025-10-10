@@ -13,16 +13,16 @@ export default function Home() {
     maria: {
       photo: '/photos/maria-photo-real.png',
       name: "Maria José",
-      description: "Lorem ipsum dolor sit met consectetur, adipisicing elit. Distinctio quaerat harum illum consequatur impedit voluptatum minus aut, mollitia laudantium nemo maiores nam totam aperiam velit asperiores, non quos recusandae.",
+      description: "Com 5 anos de experiência no campo jurídico, o Dra. Maria José atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal.",
       specialization: "Família",
       experience: 5
     },
      adriana: {
       photo: '/photos/adriana-photo-real.png',
       name: "Adriana Hiath",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, maiores tempora perferendis architecto nam minus quo quia consectetur totam et sequi possimus reiciendis, nemo culpa quos consequuntur laborum rerum sunt.",
+      description: "Possuindo 8 anos de experiência na área jurídica, a Dra. Adriana atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes.",
       specialization: "Trabalhista",
-      experience: 5
+      experience: 8
     }
   }
 
@@ -51,19 +51,19 @@ export default function Home() {
           <header>
             <div className="flex flex-col gap-3">
               <h2 className="text-5xl">FORMAÇÃO E EXPERIÊNCIA</h2>
-              <h3 className="text-secondary-color text-xl">Somos especialistas na vara de FAMÍLIA e TRABALHISTA</h3>
+              <h3 className="text-secondary-color text-xl">Somos especialistas na vara de FAMÍLIA, TRABALHISTA e PREVIDENCIÁRIA</h3>
             </div>
           </header>
           <main>
             <div className="flex flex-col m-auto mt-8 gap-5 w-[70vw]">
                <div className="flex flex-col w-full">
                 <h3 className="text-secondary-color text-2xl mb-2">Dra. Maria José</h3>
-                <p className="text-xl">Com 5 anos de experiência no campo jurídico, o Dra. Maria José atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal. Especializado em direito, trabalhista, e vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio e inscrita na OAB [UF/Seção], a Dra. Maria tem como missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
+                <p className="text-xl"> Especializada em na vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio de Sá, a Dra. Maria tem como missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
               </div>
               <div className="flex flex-col ">
                 <h3 className="text-secondary-color text-2xl mb-2">Dra. Adriana Hiath</h3>
                 <p className="text-xl">
-                Possuindo 5 anos de experiência na área jurídica, a Dra. Adriana Hiath atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes. Especialista em direito civil, trabalhista e de família, ela se destaca pelo atendimento humanizado, analisando cada caso com cuidado e dedicação. Graduada em Direito pela Universidade Estácio e inscrita na OAB [UF/Seção], a Dra. Adriana tem como propósito tornar questões jurídicas complexas em soluções eficazes, sempre pautada na ética, responsabilidade e excelência profissional. </p>
+                 Especialista em direito trabalhista, ela se destaca pelo atendimento humanizado, analisando cada caso com cuidado e dedicação. Graduada em Direito pela Universidade Estácio de Sá, a Dra. Adriana tem como propósito tornar questões jurídicas complexas em soluções eficazes, sempre pautada na ética, responsabilidade e excelência profissional. </p>
               </div>
             </div>
           </main>
