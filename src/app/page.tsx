@@ -1,3 +1,5 @@
+'use client'
+
 import { PageSection } from "./components/pageSection";
 import { ProfessionalCard } from "./components/professionalCard";
 import { WhatsAppButton } from "./components/whatsappButton";

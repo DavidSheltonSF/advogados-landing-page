@@ -1,3 +1,4 @@
+'use client'
 export function WhatsAppButton() {
   return (
     <div className="fixed button-5 right-5 bottom-8 bg-green-500 hover:bg-green-600 rounded-full p-4 shadow-lg transition duration-300 z-50 ">
