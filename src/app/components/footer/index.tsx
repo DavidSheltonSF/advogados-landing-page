@@ -4,7 +4,7 @@ import { PageContainer } from "../pageContainer";
 
 export function Footer(){
   return (
-    <footer className="flex flex-col h-[40vh] max-sm:h-[50vh] bg-black w-full text-white">
+    <footer className="flex flex-col h-[35vh] max-sm:h-[40vh] bg-black w-full text-white">
        <PageContainer extraClasses="flex flex-col items-center justify-center gap-6 p">
           <div className="flex justify-center items-center mt-5">
             <h3 className="text-2xl font-bold max-sm:text-center">Siga-nos nas redes sociais</h3>
