@@ -72,6 +72,9 @@ export default function Home() {
       <PageSection backgroundImage="" extraClasses="max-sm:h-[60vh] bg-[#042A49]  border-t-[#EBD180] border-t-20 min-h-[70vh]">
         <Carousel/>
       </PageSection>
+      <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49] min-h-[90vh] border-t-[#EBD180] border-t-20">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctL4MLpWxorTjVq3lcDNo2ys-vqamJkDkgOEYGwlMSUo6v7Q/viewform?embedded=true" width="640" height="830">Loading…</iframe>
+      </PageSection>
       <Footer/>
       <WhatsAppButton/>
     </div>
