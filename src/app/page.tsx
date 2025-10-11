@@ -13,14 +13,14 @@ export default function Home() {
     maria: {
       photo: '/photos/maria-photo.png',
       name: "Maria Sílva",
-      description: "Com 6 anos de experiência no campo jurídico, o Dra. Maria Sílva se detica à atender cada cliente com empatia e dedicação",
+      description: "Com 6 anos de experiência no campo jurídico, o Dra. Maria Sílva dedica-se a cada cliente com empatia, analisando cada caso com atenção.",
       specialization: "Família",
       experience: 6
     },
      adriana: {
       photo: '/photos/adriana-photo.png',
       name: "Adriana Morelo",
-      description: "Possuindo 8 anos de experiência como advogada, a Dra. Adriana mantem seu compromisso com a verdade e a transparência no trabalho.",
+      description: "Possuindo 8 anos de experiência como advogada, a Dra. Adriana mantem seu compromisso com a verdade e a transparência.",
       specialization: "Trabalhista",
       experience: 8
     }
