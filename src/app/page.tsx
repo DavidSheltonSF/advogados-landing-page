@@ -11,16 +11,16 @@ export default function Home() {
 
   const professionals = {
     maria: {
-      photo: '/photos/maria-photo-real.png',
-      name: "Maria José",
-      description: "Com 5 anos de experiência no campo jurídico, o Dra. Maria José atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal.",
+      photo: '/photos/maria-photo.png',
+      name: "Maria Sílva",
+      description: "Com 6 anos de experiência no campo jurídico, o Dra. Maria Sílva se detica à atender cada cliente com empatia e dedicação",
       specialization: "Família",
-      experience: 5
+      experience: 6
     },
      adriana: {
-      photo: '/photos/adriana-photo-real.png',
-      name: "Adriana Hiath",
-      description: "Possuindo 8 anos de experiência na área jurídica, a Dra. Adriana atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes.",
+      photo: '/photos/adriana-photo.png',
+      name: "Adriana Morelo",
+      description: "Possuindo 8 anos de experiência como advogada, a Dra. Adriana mantem seu compromisso com a verdade e a transparência no trabalho.",
       specialization: "Trabalhista",
       experience: 8
     }
