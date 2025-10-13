@@ -1,5 +1,5 @@
-export function disableElement(elementClass: string) {
-  const element = document.querySelector(elementClass);
+export function disableElement(selector: string) {
+  const element = document.querySelector(selector);
   element?.classList.remove('cursor-pointer');
   element?.classList.add('disabledElement')
 }
