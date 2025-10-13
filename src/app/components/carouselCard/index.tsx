@@ -19,7 +19,7 @@ export function CarouselCard(props: Props) {
 
         </div>
       </div>
-      <img className="w-full h-full" src={image} alt=""/>
+      <img className="w-full h-full" src={image} alt="" loading="lazy"/>
     </div>
   )
 }

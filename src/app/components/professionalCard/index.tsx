@@ -30,7 +30,7 @@ export function  ProfessionalCard(props: Props) {
     <article className="flex flex-col items-center w-88 h-128 rounded-2xl bg-[#f6f6f6] overflow-hidden p-5 shadow-md hover:-translate-y-5 transition duration-200">
       <header className="h-[52%] w-full">
         <div className="size-full rounded-xl overflow-hidden">
-          <img className="h-full w-full object-cover object-[50%_8%]" src={photo} alt="" />
+          <img className="h-full w-full object-cover object-[50%_8%]" src={photo} alt="" loading="lazy"/>
         </div>
       </header>
       <main className=" h-[40%] flex flex-col items-center">
