@@ -33,7 +33,7 @@ export function Carousel() {
 
   const cards: CarouselCard[] = [
     {
-      image: 'carousel/trabalhista.png',
+      image: 'carousel/trabalhista.webp',
       title: 'Trabalhista',
       items: [
         "Rescisão de contrato",
@@ -49,7 +49,7 @@ export function Carousel() {
       ]
     },
     {
-      image: 'carousel/familia.png',
+      image: 'carousel/familia.webp',
       title: 'Família',
       items: [
       "Divórcio e separação",
@@ -65,7 +65,7 @@ export function Carousel() {
       ]
     },
     {
-      image: 'carousel/previdenciario.png',
+      image: 'carousel/previdenciario.webp',
       title: 'Previdência',
       items: [
       "Aposentadoria por idade",
