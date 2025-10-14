@@ -3,6 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
+  swcMinify: true,
+  browserList: [],
+  compiler: {
+    removeConsole: true,
+  },
   images: {
     unoptimized: true // porque o export é estático
   },
