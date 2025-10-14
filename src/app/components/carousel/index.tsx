@@ -15,15 +15,15 @@ export function Carousel() {
   useEffect(() => {
     function checkButtons() {
       if(current === 0){
-        disableElement('.leftButton');
+        disableElement('#carousel-left-btn');
       } else {
-        enableElement('.leftButton')
+        enableElement('#carousel-left-btn')
       }
 
       if(current === cards.length - 1) {
-        disableElement('.rightButton')
+        disableElement('#carousel-right-btn')
       } else {
-        enableElement('.rightButton')
+        enableElement('#carousel-right-btn')
       }
     }
     checkButtons()
@@ -119,10 +119,10 @@ export function Carousel() {
         })}
       </div>
       </div>
-      <button onClick={prevSlide} className="absolute left-1 text-blue-400 bg-white max-sm:bg-white/60 rounded-xl leftButton">
+      <button onClick={prevSlide} id="carousel-left-btn" className="absolute left-1 text-blue-400 bg-white max-sm:bg-white/60 rounded-xl">
         <img className="w-20 max-sm:w-15" src="icons/arrow-left.svg" alt="" />
       </button>
-      <button onClick={nextSlide} className="absolute right-1 text-white bg-blue-400 bg-white max-sm:bg-white/60 rounded-xl rightButton">
+      <button id="carousel-right-btn" onClick={nextSlide} className="absolute right-1 text-white bg-blue-400 bg-white max-sm:bg-white/60 rounded-xl">
         <img className="w-20 max-sm:w-15" src="icons/arrow-right.svg" alt="" />
       </button>
     </div>
