@@ -5,13 +5,15 @@ import {Poppins, Lato} from "next/font/google"
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
-  variable: '--font-poppins'
+  variable: '--font-poppins',
+  display: 'auto'
 });
 
 const lato = Lato({
   subsets: ['latin'],
   weight: ['400', '700'],
-  variable: '--font-lato'
+  variable: '--font-lato',
+  display: 'auto'
 });
 
 export const metadata: Metadata = {
