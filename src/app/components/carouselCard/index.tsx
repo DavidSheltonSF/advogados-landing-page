@@ -1,13 +1,14 @@
 'use client'
-interface Props {
-  key: any
-  title: string;
-  image: string;
-  items: string[];
-  alt?: string
-}
 
-export function CarouselCard(props: Props) {
+export interface CarouselCardProps {
+  image: string,
+  title: string,
+  items: string[],
+  alt?: string,
+} 
+
+
+export function CarouselCard(props: CarouselCardProps) {
   const {title, image, items, alt} = props;
   return (
     <div className="relative w-full shrink-0">

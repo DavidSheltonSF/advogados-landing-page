@@ -2,14 +2,7 @@
 import { disableElement } from "@/app/utils/disableElement";
 import { enableElement } from "@/app/utils/enableElement";
 import { useEffect, useState } from "react";
-import { CarouselCard } from "../carouselCard";
-
-export interface CarouselCard {
-  image: string,
-  title: string,
-  items: string[],
-  alt?: string,
-} 
+import { CarouselCard, CarouselCardProps } from "../carouselCard";
 
 export function Carousel() {
   const [current, setCurrent] = useState(0);
@@ -32,7 +25,7 @@ export function Carousel() {
 
   let startX = 0;
 
-  const cards: CarouselCard[] = [
+  const cards: CarouselCardProps[] = [
     {
       image: 'carousel/trabalhista.webp',
       title: 'Trabalhista',
