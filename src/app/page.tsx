@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <PageSection backgroundImage="/bg-image-logo-with-name-blue.png" extraClasses="min-h-[70vh] max-md:min-h-[35vh] max-sm:min-h-[30vh]"/>
+      <PageSection backgroundImage="/bg-image-logo-with-name-blue.webp" extraClasses="min-h-[70vh] max-md:min-h-[35vh] max-sm:min-h-[30vh]"/>
       <PageSection backgroundImage="" extraClasses="bg-[#181818]">
         <PageContainer extraClasses="flex flex-col mt-20 min-h-[45vh] py-2 ">
           <div className="flex flex-col items-start gap-8 max-w-150">
