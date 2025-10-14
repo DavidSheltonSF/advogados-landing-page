@@ -6,13 +6,6 @@
   --secondary-color: #EBD180;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 .text-secondary-color {
   color: var(--secondary-color)
 }
