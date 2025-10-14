@@ -41,7 +41,8 @@ export function Carousel() {
         "Reintegração ao trabalho",
         "Consultoria preventiva"
       ],
-      alt: "Imagem ilustrativa sobre direito trabalhista, destacando temas como rescisão de contrato, verbas rescisórias, indenização trabalhista, horas extras, vínculo empregatício, assédio moral e sexual, acidente de trabalho, FGTS, INSS, reintegração e consultoria preventiva."
+      alt: "Imagem ilustrativa sobre direito trabalhista, destacando temas como rescisão de contrato, verbas rescisórias, indenização trabalhista, horas extras, vínculo empregatício, assédio moral e sexual, acidente de trabalho, FGTS, INSS, reintegração e consultoria preventiva.",
+      imageSizes: "carousel/trabalhista-480x480.webp 480w carousel/trabalhista-320x320.webp 320w"
     },
     {
       image: 'carousel/familia-480x480.webp',
@@ -58,7 +59,8 @@ export function Carousel() {
       "Alteração de nome",
       "Interdição e curatela"
       ],
-      alt: "Imagem ilustrativa sobre direito de família, abordando temas como divórcio e separação, pensão alimentícia, guarda e visitas de filhos, união estável, convivência familiar, partilha de bens, investigação de paternidade, adoção, alteração de nome e curatela."
+      alt: "Imagem ilustrativa sobre direito de família, abordando temas como divórcio e separação, pensão alimentícia, guarda e visitas de filhos, união estável, convivência familiar, partilha de bens, investigação de paternidade, adoção, alteração de nome e curatela.",
+      imageSizes: "carousel/familia-480x480.webp 480w carousel/familia-320x320.webp 320w"
     },
     {
       image: 'carousel/previdenciario-480x480.webp',
@@ -75,7 +77,8 @@ export function Carousel() {
       "Tempo de contribuição e contagem especial",
       "Planejamento previdenciário"
       ],
-      alt: "Imagem ilustrativa sobre direito previdenciário, destacando temas como aposentadoria por idade, tempo de contribuição, aposentadoria por invalidez, auxílio-doença, auxílio-acidente, BPC ou LOAS, pensão por morte, revisão de benefícios, contagem especial e planejamento previdenciário."
+      alt: "Imagem ilustrativa sobre direito previdenciário, destacando temas como aposentadoria por idade, tempo de contribuição, aposentadoria por invalidez, auxílio-doença, auxílio-acidente, BPC ou LOAS, pensão por morte, revisão de benefícios, contagem especial e planejamento previdenciário.",
+      imageSizes: "carousel/previdenciario-480x480.webp 480w carousel/previdenciario-320x320.webp 320w"
     }
   ]
 
@@ -111,7 +114,7 @@ export function Carousel() {
         <div className="flex w-120 h-120 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {cards.map((card, index) => {
           return (
-            <CarouselCard key={index} title={card.title} image={card.image} items={card.items} alt={card.alt} />
+            <CarouselCard key={index} title={card.title} image={card.image} items={card.items} alt={card.alt} imageSizes={card.imageSizes} />
           )
         })}
       </div>

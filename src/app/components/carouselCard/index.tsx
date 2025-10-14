@@ -5,11 +5,12 @@ export interface CarouselCardProps {
   title: string,
   items: string[],
   alt?: string,
+  imageSizes?: string
 } 
 
 
 export function CarouselCard(props: CarouselCardProps) {
-  const {title, image, items, alt} = props;
+  const {title, image, items, alt, imageSizes} = props;
   return (
     <div className="relative w-full shrink-0">
       <div className="flex justify-center absolute top-[50%] translate-y-[-50%] w-full h-[90%] bg-black/80">
@@ -20,7 +21,7 @@ export function CarouselCard(props: CarouselCardProps) {
         </ul>
         </div>
       </div>
-      <img className="w-full h-full" src={image} alt={alt} loading="lazy"/>
+      <img className="w-full h-full" src={image} alt={alt} loading="lazy" srcSet={imageSizes}/>
     </div>
   )
 }
