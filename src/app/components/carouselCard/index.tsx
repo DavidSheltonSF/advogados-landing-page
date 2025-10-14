@@ -16,7 +16,6 @@ export function CarouselCard(props: Props) {
         <ul className="flex flex-col gap-1 text-secondary-color text-lg max-sm:gap-0 max-sm:text-sm decoration list-disc">
           {items.slice(0,8).map((item, index) => <li key={`text-idem${index}`}>{item}</li>)}
         </ul>
-
         </div>
       </div>
       <img className="w-full h-full" src={image} alt="" loading="lazy"/>
