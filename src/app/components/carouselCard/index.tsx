@@ -4,10 +4,11 @@ interface Props {
   title: string;
   image: string;
   items: string[];
+  alt?: string
 }
 
 export function CarouselCard(props: Props) {
-  const {title, image, items} = props;
+  const {title, image, items, alt} = props;
   return (
     <div className="relative w-full shrink-0">
       <div className="flex justify-center absolute top-[50%] translate-y-[-50%] w-full h-[90%] bg-black/80">
@@ -18,7 +19,7 @@ export function CarouselCard(props: Props) {
         </ul>
         </div>
       </div>
-      <img className="w-full h-full" src={image} alt="" loading="lazy"/>
+      <img className="w-full h-full" src={image} alt={alt} loading="lazy"/>
     </div>
   )
 }

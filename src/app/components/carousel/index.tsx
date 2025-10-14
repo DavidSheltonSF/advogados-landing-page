@@ -7,7 +7,8 @@ import { CarouselCard } from "../carouselCard";
 export interface CarouselCard {
   image: string,
   title: string,
-  items: string[]
+  items: string[],
+  alt?: string,
 } 
 
 export function Carousel() {
@@ -46,7 +47,8 @@ export function Carousel() {
         "FGTS e INSS",
         "Reintegração ao trabalho",
         "Consultoria preventiva"
-      ]
+      ],
+      alt: "Imagem ilustrativa sobre direito trabalhista, destacando temas como rescisão de contrato, verbas rescisórias, indenização trabalhista, horas extras, vínculo empregatício, assédio moral e sexual, acidente de trabalho, FGTS, INSS, reintegração e consultoria preventiva."
     },
     {
       image: 'carousel/familia.webp',
@@ -62,7 +64,8 @@ export function Carousel() {
       "Adoção",
       "Alteração de nome",
       "Interdição e curatela"
-      ]
+      ],
+      alt: "Imagem ilustrativa sobre direito de família, abordando temas como divórcio e separação, pensão alimentícia, guarda e visitas de filhos, união estável, convivência familiar, partilha de bens, investigação de paternidade, adoção, alteração de nome e curatela."
     },
     {
       image: 'carousel/previdenciario.webp',
@@ -78,7 +81,8 @@ export function Carousel() {
       "Revisão de benefícios",
       "Tempo de contribuição e contagem especial",
       "Planejamento previdenciário"
-      ]
+      ],
+      alt: "Imagem ilustrativa sobre direito previdenciário, destacando temas como aposentadoria por idade, tempo de contribuição, aposentadoria por invalidez, auxílio-doença, auxílio-acidente, BPC ou LOAS, pensão por morte, revisão de benefícios, contagem especial e planejamento previdenciário."
     }
   ]
 
@@ -114,7 +118,7 @@ export function Carousel() {
         <div className="flex w-120 h-120 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {cards.map((card, index) => {
           return (
-            <CarouselCard key={index} title={card.title} image={card.image} items={card.items} />
+            <CarouselCard key={index} title={card.title} image={card.image} items={card.items} alt={card.alt} />
           )
         })}
       </div>
