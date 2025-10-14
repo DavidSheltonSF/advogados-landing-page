@@ -2,7 +2,7 @@
 export function ProfessionalCardSkeleton() {
 
    return (
-    <article className="flex flex-col items-center w-88 h-128 rounded-2xl shadow-md hover:-translate-y-5 animate-pulse p-5">
+    <article className="flex flex-col items-center w-88 h-128 rounded-2xl shadow-md animate-pulse p-5">
        <header className="h-[52%] w-full">
          <div className="size-full rounded-xl bg-gray-300">
          </div>
