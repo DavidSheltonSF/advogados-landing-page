@@ -1,7 +1,7 @@
-export function reduceText(text:string, wordsQuantity: number = 20) {
+export function reduceText(text:string, maxWordsQuantity: number = 20) {
   const words = text.split(' ');
-  if(words.length > wordsQuantity) {
-    const reducedWords = words.slice(0, wordsQuantity);
+  if(words.length > maxWordsQuantity) {
+    const reducedWords = words.slice(0, maxWordsQuantity);
     let reducedText = reducedWords.join(' ');
     reducedText = reducedText + '...';
     return reducedText
