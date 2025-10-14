@@ -117,10 +117,10 @@ export function Carousel() {
       </div>
       </div>
       <button onClick={prevSlide} id="carousel-left-btn" className="absolute left-1 text-blue-400 bg-white max-sm:bg-white/60 rounded-xl">
-        <img className="w-20 max-sm:w-15" src="icons/arrow-left.svg" alt="" />
+        <img className="w-20 max-sm:w-15" src="icons/arrow-left.svg" alt="" loading="lazy"/>
       </button>
       <button id="carousel-right-btn" onClick={nextSlide} className="absolute right-1 text-white bg-blue-400 bg-white max-sm:bg-white/60 rounded-xl">
-        <img className="w-20 max-sm:w-15" src="icons/arrow-right.svg" alt="" />
+        <img className="w-20 max-sm:w-15" src="icons/arrow-right.svg" alt="" loading="lazy"/>
       </button>
     </div>
   )

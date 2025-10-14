@@ -15,14 +15,14 @@ export function Footer(){
           target="_blank"
           className="cursos-pointer"
           >
-            <img className="w-10" src="icons/facebook-white-icon.png" alt="" />
+            <img className="w-10" src="icons/facebook-white-icon.png" alt="" loading="lazy"/>
           </a>
           <a 
           href="#"
           target="_blank"
           className="cursos-pointer"
           >
-            <img className="w-10" src="icons/instagram-white-icon.svg" alt="" />
+            <img className="w-10" src="icons/instagram-white-icon.svg" alt="" loading="lazy"/>
           </a>
           </div>
         </PageContainer>
