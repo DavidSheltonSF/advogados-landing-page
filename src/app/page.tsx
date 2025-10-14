@@ -11,7 +11,7 @@ export default function Home() {
 
   const professionals = {
     maria: {
-      photo: '/photos/maria-photo/maria-photo-312x208.webp',
+      photo: '/photos/maria-photo-312x208.webp',
       name: "Maria Sílva",
       description: "Com 6 anos de experiência no campo jurídico, o Dra. Maria Sílva dedica-se a cada cliente com empatia, analisando cada caso com atenção.",
       specialization: "Família",
