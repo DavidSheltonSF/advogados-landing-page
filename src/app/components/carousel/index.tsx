@@ -111,7 +111,7 @@ export function Carousel() {
   return (
     <div className="flex justify-center items-center relative w-180">
       <div onTouchStart={touchStart}  onTouchEnd={touched} className="overflow-hidden rounded-xl">
-        <div className="flex w-120 h-120 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
+        <div className="flex w-120 h-120 max-sm:w-90 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {cards.map((card, index) => {
           return (
             <CarouselCard key={index} title={card.title} image={card.image} items={card.items} alt={card.alt} imageSizes={card.imageSizes} />
