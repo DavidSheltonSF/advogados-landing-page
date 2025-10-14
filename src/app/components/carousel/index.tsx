@@ -109,9 +109,9 @@ export function Carousel() {
 
 
   return (
-    <div className="flex justify-center items-center relative w-180 max-md:w-180 overflow-hidden ">
+    <div className="flex justify-center items-center relative w-180">
       <div onTouchStart={touchStart}  onTouchEnd={touched} className="overflow-hidden rounded-xl">
-        <div className="flex w-120 h-120 max-md:w-130 max-md:h-130 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
+        <div className="flex w-120 h-120 max-sm:w-80 max-sm:h-90 rounded-xl transition-transform duration-500" style={{transform: `translateX(-${current * 100}%)`}}>
         {cards.map((card, index) => {
           return (
             <CarouselCard key={index} title={card.title} image={card.image} items={card.items} />
@@ -119,11 +119,11 @@ export function Carousel() {
         })}
       </div>
       </div>
-      <button onClick={prevSlide} className="absolute left-1 text-blue-400 bg-white max-md:bg-white/60 rounded-xl leftButton">
-        <img className="w-20 max-md:w-15" src="icons/arrow-left.svg" alt="" />
+      <button onClick={prevSlide} className="absolute left-1 text-blue-400 bg-white max-sm:bg-white/60 rounded-xl leftButton">
+        <img className="w-20 max-sm:w-15" src="icons/arrow-left.svg" alt="" />
       </button>
-      <button onClick={nextSlide} className="absolute right-1 text-white bg-blue-400 bg-white max-md:bg-white/60 rounded-xl rightButton">
-        <img className="w-20 max-md:w-15" src="icons/arrow-right.svg" alt="" />
+      <button onClick={nextSlide} className="absolute right-1 text-white bg-blue-400 bg-white max-sm:bg-white/60 rounded-xl rightButton">
+        <img className="w-20 max-sm:w-15" src="icons/arrow-right.svg" alt="" />
       </button>
     </div>
   )
