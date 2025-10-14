@@ -27,7 +27,7 @@ export function Carousel() {
 
   const cards: CarouselCardProps[] = [
     {
-      image: 'carousel/trabalhista.webp',
+      image: 'carousel/trabalhista-480x480.webp',
       title: 'Trabalhista',
       items: [
         "Rescisão de contrato",
@@ -44,7 +44,7 @@ export function Carousel() {
       alt: "Imagem ilustrativa sobre direito trabalhista, destacando temas como rescisão de contrato, verbas rescisórias, indenização trabalhista, horas extras, vínculo empregatício, assédio moral e sexual, acidente de trabalho, FGTS, INSS, reintegração e consultoria preventiva."
     },
     {
-      image: 'carousel/familia.webp',
+      image: 'carousel/familia-480x480.webp',
       title: 'Família',
       items: [
       "Divórcio e separação",
@@ -61,7 +61,7 @@ export function Carousel() {
       alt: "Imagem ilustrativa sobre direito de família, abordando temas como divórcio e separação, pensão alimentícia, guarda e visitas de filhos, união estável, convivência familiar, partilha de bens, investigação de paternidade, adoção, alteração de nome e curatela."
     },
     {
-      image: 'carousel/previdenciario.webp',
+      image: 'carousel/previdenciario-480x480.webp',
       title: 'Previdência',
       items: [
       "Aposentadoria por idade",
