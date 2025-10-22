@@ -50,7 +50,7 @@ export default function Home() {
       <PageSection backgroundImage="" extraClasses="h-auto bg-[#042A49]  border-t-[#EBD180] border-t-20 min-h-[70vh]">
         <PageContainer extraClasses="flex flex-col items-center my-5 py-2 text-white">
           <header>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 justify-center items-center">
               <h2 className="text-5xl">FORMAÇÃO E EXPERIÊNCIA</h2>
               <h3 className="text-secondary-color text-xl">Somos especialistas na vara de FAMÍLIA, TRABALHISTA e PREVIDENCIÁRIA</h3>
             </div>
