@@ -59,12 +59,12 @@ export default function Home() {
             <div className="flex flex-col m-auto mt-8 gap-5 w-[70vw]">
               <div className="flex flex-col w-full">
                 <h3 className="text-secondary-color text-2xl mb-2">Dra. Maria José</h3>
-                <p className="text-xl"> Especializada em na vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio de Sá, a Dra. Maria tem como missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
+                <p className="text-xl"> Especializada em na vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio de Sá, sua missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
               </div>
               <div className="flex flex-col ">
                 <h3 className="text-secondary-color text-2xl mb-2">Dra. Adriana Hiath</h3>
                 <p className="text-xl">
-                Especialista em direito trabalhista, ela se destaca pelo atendimento humanizado, analisando cada caso com cuidado e dedicação. Graduada em Direito pela Universidade Estácio de Sá, a Dra. Adriana tem como propósito tornar questões jurídicas complexas em soluções eficazes, sempre pautada na ética, responsabilidade e excelência profissional. </p>
+                Especialista em direito trabalhista, ela se destaca pelo atendimento humanizado, analisando cada caso com cuidado e dedicação. Graduada em Direito pela Universidade Estácio de Sá, seu propósito é tornar questões jurídicas complexas em soluções eficazes, sempre pautada na ética, responsabilidade e excelência profissional. </p>
               </div>
             </div>
           </main> 
