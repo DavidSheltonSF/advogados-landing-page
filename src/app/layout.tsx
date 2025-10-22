@@ -20,12 +20,12 @@ export const metadata: Metadata = {
   title: "Morelo & Sílva Adv",
   description: "Escritório de Advocacia - advogados de família e trabalhista",
   icons: {
-    icon: 'https://advogados-landing-page.onrender.com/logo.svg'
+    icon: 'https://advogados-landing-page-static.onrender.com/logo.svg'
   },
   openGraph: {
     images: [
       {
-        url: 'https://advogados-landing-page.onrender.com/website-preview-1200x504.png',
+        url: 'https://advogados-landing-page.onrender.com-static/website-preview-1200x504.png',
         width:1200,
         height:630
       }
