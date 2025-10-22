@@ -11,20 +11,21 @@ export default function Home() {
 
   const professionals = {
     maria: {
-      photo: '/photos/maria-photo-312x208.webp',
-      name: "Maria Sílva",
-      description: "Com 6 anos de experiência no campo jurídico, o Dra. Maria Sílva dedica-se a cada cliente com empatia, analisando cada caso com atenção.",
+      photo: '/photos/maria-photo-real.png',
+      name: "Maria José",
+      description: "Com 5 anos de experiência no campo jurídico, o Dra. Maria José atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal.",
       specialization: "Família",
-      experience: 6
+      experience: 5
     },
      adriana: {
-      photo: '/photos/adriana-photo-312x208.webp',
-      name: "Adriana Morelo",
-      description: "Possuindo 8 anos de experiência como advogada, a Dra. Adriana mantem seu compromisso com a verdade e a transparência.",
+      photo: '/photos/adriana-photo-real.png',
+      name: "Adriana Hiath",
+      description: "Possuindo 8 anos de experiência na área jurídica, a Dra. Adriana atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes.",
       specialization: "Trabalhista",
       experience: 8
     }
   }
+  
 
   return (
     <div className="flex flex-col">
@@ -56,14 +57,14 @@ export default function Home() {
           </header>
           <main>
             <div className="flex flex-col m-auto mt-8 gap-5 w-[70vw]">
-               <div className="flex flex-col w-full">
-                <h3 className="text-secondary-color text-2xl mb-2">Dra. Maria Sílva</h3>
-                <p className="text-xl"> Possuindo 6 anos de experiência na área, a Dra. Maria Sílva atua com sensibilidade e firmeza em casos que envolvem relações familiares, divórcios, pensões, guarda e inventários. Seu objetivo é alcançar soluções justas, respeitosas e equilibradas, reduzindo conflitos e priorizando o bem-estar de todos os envolvidos.</p>
+              <div className="flex flex-col w-full">
+                <h3 className="text-secondary-color text-2xl mb-2">Dra. Maria José</h3>
+                <p className="text-xl"> Especializada em na vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio de Sá, a Dra. Maria tem como missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
               </div>
               <div className="flex flex-col ">
-                <h3 className="text-secondary-color text-2xl mb-2">Dra. Adriana Morelo</h3>
+                <h3 className="text-secondary-color text-2xl mb-2">Dra. Adriana Hiath</h3>
                 <p className="text-xl">
-                 Com anos de experiência na defesa dos direitos de trabalhadores e empresas, a Dra. Adriana Morelo é reconhecida pela sua abordagem estratégica e detalhista. Seu trabalho é guiado pela busca de soluções rápidas e seguras, priorizando sempre o diálogo e a clareza nas orientações jurídicas.</p>
+                Especialista em direito trabalhista, ela se destaca pelo atendimento humanizado, analisando cada caso com cuidado e dedicação. Graduada em Direito pela Universidade Estácio de Sá, a Dra. Adriana tem como propósito tornar questões jurídicas complexas em soluções eficazes, sempre pautada na ética, responsabilidade e excelência profissional. </p>
               </div>
             </div>
           </main> 
