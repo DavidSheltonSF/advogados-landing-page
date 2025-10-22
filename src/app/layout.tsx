@@ -17,7 +17,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Morelo & Sílva Adv",
+  title: "Hiath & Sales Adv",
   description: "Escritório de Advocacia - advogados de família e trabalhista",
   icons: {
     icon: 'https://advogados-landing-page-static.onrender.com/logo.png'
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         height:630
       }
     ],
-    title: "Morelo & Sílva Adv",
+    title: "Hiath & Sales Adv",
     description: "Escritório de Advocacia - advogados de família e trabalhista",
     siteName: "Morelo & Sílva Adv",
     locale: "pt_BR",
