@@ -15,7 +15,7 @@ export default function Home() {
       name: "Maria José",
       description: "Com 5 anos de experiência no campo jurídico, ela atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal.",
       whatsAppNumber: '5521974694530',
-      specialization: "Família",
+      specializations: ["Família", "Cívil"],
       experience: 5
     },
      adriana: {
@@ -23,7 +23,7 @@ export default function Home() {
       name: "Adriana Hiath",
       description: "Possuindo 8 anos de experiência na área jurídica, ela atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes.",
       whatsAppNumber: '#',
-      specialization: "Trabalhista",
+      specializations: ["Trabalhista", "Previdênciário"],
       experience: 8
     }
   }
