@@ -22,7 +22,7 @@ export default function Home() {
       photo: '/photos/adriana-312x312.webp',
       name: "Adriana Hiath",
       description: "Possuindo 8 anos de experiência na área jurídica, ela atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes.",
-      whatsAppNumber: '#',
+      whatsAppNumber: '5521973910618',
       specializations: ["Trabalhista", "Previdênciário"],
       experience: 8
     }
