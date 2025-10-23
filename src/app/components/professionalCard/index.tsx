@@ -33,7 +33,7 @@ export function  ProfessionalCard(props: Props) {
   }
 
  
-  const { photo, name, description, specialization, experience } = props
+  const { photo, name, description, specialization, experience, whatsAppNumber } = props
   return (
    <>
      {
@@ -63,7 +63,9 @@ export function  ProfessionalCard(props: Props) {
             <img src="icons/reset.svg"/>
           </div>
           <div className="rounded-full hover:bg-white/50 whatsapp-btn mt-32">
-            <img className="w-24" src="icons/whatsapp-white-icon.svg" alt="" loading="lazy"/>
+            <a href={`https://wa.me/${whatsAppNumber}`}>
+              <img className="w-24" src="icons/whatsapp-white-icon.svg" alt="" loading="lazy"/>
+            </a>
           </div>
           <h1 className="font-bold text-xl">Fale com a Dra. {name}</h1>
         </div>
