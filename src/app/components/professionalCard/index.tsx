@@ -67,12 +67,13 @@ export function  ProfessionalCard(props: Props) {
           <div className="absolute flex items-center justify-center bg-gray-200 hover:bg-gray-300 w-10 h-10 rounded-full right-[5%] top-[5%] cursor-pointer" onClick={unFlipCard}>
             <img src="icons/reset.svg"/>
           </div>
-          <div className="relative rounded-full mt-36 cursor-pointer">
-            <div className="absolute w-24 h-24 rounded-full max-md:animate-ping max-md:bg-white/50 hover:bg-white/25"></div>
-            <a href={`https://wa.me/${whatsAppNumber}`} target="_blank">
+          <a href={`https://wa.me/${whatsAppNumber}`} target="_blank"> 
+            <div className="relative rounded-full mt-36 cursor-pointer">
+              <div className="absolute w-24 h-24 rounded-full max-md:animate-ping max-md:bg-white/50 hover:bg-white/25"></div>
               <img className="w-24" src="icons/whatsapp-white-icon.svg" alt="" loading="lazy"/>
-            </a>
-          </div>
+            </div>
+          </a>
+         
           <h1 className="font-bold text-xl text-center w-80">Clique para falar com a Dra. {name}</h1>
         </div>
       </div>
