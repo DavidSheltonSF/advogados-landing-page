@@ -57,12 +57,12 @@ export function  ProfessionalCard(props: Props) {
         </footer>
       </div>
       <div className={`card-back absolute rotate-y-180 background-secondary-color h-full w-full ${!flipped ? 'hidden' : ''}`}>
-        <div className="relative w-full h-full flex flex-col items-center justify-center gap-4">
+        <div className="relative w-full h-full flex flex-col items-center gap-8">
           <div className="absolute flex items-center justify-center bg-gray-200 hover:bg-gray-300 w-10 h-10 rounded-full right-[5%] top-[5%]" onClick={unFlipCard}>
             <img src="icons/reset.svg"/>
           </div>
-          <div className="rounded-full hover:bg-white/50 whatsapp-btn">
-            <img className="w-12 max-md:w-8" src="icons/whatsapp-white-icon.svg" alt="" loading="lazy"/>
+          <div className="rounded-full hover:bg-white/50 whatsapp-btn mt-32">
+            <img className="w-24" src="icons/whatsapp-white-icon.svg" alt="" loading="lazy"/>
           </div>
           <h1 className="font-bold text-xl">Fale com a Dra. {name}</h1>
         </div>
