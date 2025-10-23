@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex flex-col items-start gap-8 max-w-150">
             <h1 className="text-white text-5xl max-md:text-4xl max-sm:text-3xl">Buscando apoio jurídico ou consultoria?</h1>
             <button className="shadow-[color:#EBD180]/50 shadow-lg py-2 px-6 rounded-md text-black font-bold text-xl bg-[#EBD180] hover:bg-[#e2c56f]">
-              <a href="#" target="_blank">Clique e fale conosco</a>
+              <a href="https://wa.me/5521974694530" target="_blank">Clique e fale conosco</a>
             </button>
           </div>
         </PageContainer>
