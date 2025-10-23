@@ -8,6 +8,7 @@ interface Props {
   photo: string;
   name: string;
   description: string;
+  whatsAppNumber: string;
   specialization: string;
   experience: number;
 }

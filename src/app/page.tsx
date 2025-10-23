@@ -14,6 +14,7 @@ export default function Home() {
       photo: '/photos/maria-312x312.webp',
       name: "Maria José",
       description: "Com 5 anos de experiência no campo jurídico, ela atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal.",
+      whatsAppNumber: '',
       specialization: "Família",
       experience: 5
     },
@@ -21,6 +22,7 @@ export default function Home() {
       photo: '/photos/adriana-312x312.webp',
       name: "Adriana Hiath",
       description: "Possuindo 8 anos de experiência na área jurídica, ela atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes.",
+      whatsAppNumber: '',
       specialization: "Trabalhista",
       experience: 8
     }
