@@ -11,18 +11,18 @@ export default function Home() {
 
   const professionals = {
     maria: {
-      photo: '/photos/maria-312x312.webp',
-      name: "Maria José",
-      description: "Com 5 anos de experiência no campo jurídico, ela atua com dedicação e transparência para garantir que seus clientes recebam o melhor suporte legal.",
-      whatsAppNumber: '5521974694530',
+      photo: '/photos/maria-photo-312x208.webp',
+      name: "Maria Sílva",
+      description: "Com 5 anos de experiência no campo jurídico, Dra. Maria atenta para cada caso com atenção e empatia.",
+      whatsAppNumber: '#',
       specializations: ["Família", "Cívil"],
       experience: 5
     },
      adriana: {
-      photo: '/photos/adriana-312x312.webp',
-      name: "Adriana Hiath",
-      description: "Possuindo 8 anos de experiência na área jurídica, ela atua com compromisso e clareza para oferecer o melhor suporte legal a seus clientes.",
-      whatsAppNumber: '5521973910618',
+      photo: '/photos/adriana-photo-312x208.webp',
+      name: "Adriana Morelo",
+      description: "Possuindo 4 anos de experiência na área jurídica, ela age com paciência e ética, oferecendo o melhor atendimento aos seus clientes.",
+      whatsAppNumber: '#',
       specializations: ["Trabalhista", "Previdênciário"],
       experience: 8
     }
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex flex-col items-start gap-8 max-w-150">
             <h1 className="text-white text-5xl max-md:text-4xl max-sm:text-3xl">Buscando apoio jurídico ou consultoria?</h1>
             <button className="shadow-[color:#EBD180]/50 shadow-lg py-2 px-6 rounded-md text-black font-bold text-xl bg-[#EBD180] hover:bg-[#e2c56f]">
-              <a href="https://wa.me/5521974694530" target="_blank">Clique e fale conosco</a>
+              <a href="https://wa.me/#" target="_blank">Clique e fale conosco</a>
             </button>
           </div>
         </PageContainer>
@@ -60,13 +60,13 @@ export default function Home() {
           <main>
             <div className="flex flex-col m-auto mt-8 gap-5 w-[70vw]">
               <div className="flex flex-col w-full">
-                <h3 className="text-secondary-color text-2xl mb-2">Dra. Maria José</h3>
-                <p className="text-xl"> Especializada em na vara de família, ela oferece atendimento personalizado, analisando cada caso com atenção e compromisso. Graduada em Direito pela Estácio de Sá, sua missão transformar situações complexas em soluções práticas, sempre defendendo os interesses de seus clientes com ética e excelência. </p>
+                <h3 className="text-secondary-color text-2xl mb-2">Dra. Maria Sílva</h3>
+                <p className="text-xl"> A Dra. Maria é uma advogada dedicada, reconhecida por sua atuação ética e comprometida com a justiça. Possui ampla experiência em assessoria jurídica e busca sempre soluções eficazes e humanizadas para seus clientes.</p>
               </div>
               <div className="flex flex-col ">
-                <h3 className="text-secondary-color text-2xl mb-2">Dra. Adriana Hiath</h3>
+                <h3 className="text-secondary-color text-2xl mb-2">Dra. Adriana Morelo</h3>
                 <p className="text-xl">
-                Especialista em direito trabalhista, ela se destaca pelo atendimento humanizado, analisando cada caso com cuidado e dedicação. Graduada em Direito pela Universidade Estácio de Sá, seu propósito é tornar questões jurídicas complexas em soluções eficazes, sempre pautada na ética, responsabilidade e excelência profissional. </p>
+               A Dra. Adriana é uma profissional experiente e atenta aos detalhes, com forte atuação em defesa dos direitos de seus clientes. Sua abordagem estratégica e empática garante excelência em cada caso que conduz.</p>
               </div>
             </div>
           </main> 
