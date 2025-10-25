@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Hiath & Sales Adv",
   description: "Escritório de Advocacia - advogados de família e trabalhista",
   icons: {
-    icon: 'https://advogados-landing-page.onrender.com/logo.png'
+    icon: 'https://advogados-landing-page.onrender.com/logo.svg'
   },
   openGraph: {
     images: [
