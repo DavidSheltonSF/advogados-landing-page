@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚖️ Law Firm Landing Page
 
-## Getting Started
+A beautiful landing page developed for a law firm, featuring blue and gold as the main colors — conveying professionalism, trust, and sophistication.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+💬 WhatsApp redirect buttons for each lawyer, making direct contact with the firm quick and easy.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📱 Fully responsive design, ensuring a great user experience on both desktop and mobile devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📞 Floating WhatsApp button, always accessible from any section of the website.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👩‍⚖️ Interactive cards displaying information about the lawyers, each with a contact button that redirects to WhatsApp.
 
-## Learn More
+⚙️ Dynamic carousel showcasing the services provided and the areas of law the firm specializes in.
 
-To learn more about Next.js, take a look at the following resources:
+📧 Integrated Google form, allowing users to send messages and inquiries easily and securely.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Purpose
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project aims to provide a modern and functional digital presence for the law firm, helping potential clients learn more about the services and get in touch effortlessly.
 
-## Deploy on Vercel
+## 🛠️ Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tailwind CSS
+
+Git & GitHub
