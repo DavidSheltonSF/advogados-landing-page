@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import {Poppins, Lato} from "next/font/google"
+import { GoogleTagManager } from "./scripts/GoogleTagManager";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -48,6 +49,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <GoogleTagManager/>
         {children}
       </body>
     </html>
